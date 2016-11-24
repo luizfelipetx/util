@@ -1,4 +1,14 @@
+#
 #get url from urls list , save the status response , and last date called, can be used in crontab
+#
+# use one line == one url
+# example urls.txt above:
+#
+#http://google.com
+#http://yahoo.com
+#http://ig.com.br
+#
+
 addlog(){
         echo "getdata ? $1" >> logrequest.log
 }
